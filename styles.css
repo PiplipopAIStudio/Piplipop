@@ -26,7 +26,7 @@ a:focus-visible, button:focus-visible { outline: 3px solid #db8f00; outline-offs
 .skip-link:focus { top: 10px; }
 .site-header { display: flex; align-items: center; justify-content: space-between; gap: 20px; max-width: 1160px; margin: 0 auto; padding: 20px 24px; }
 .brand { display: inline-flex; align-items: center; gap: 11px; color: var(--ink); text-decoration: none; }
-.brand-mark { display: grid; place-items: center; width: 46px; height: 46px; border-radius: 16px; background: var(--yellow); font-size: 25px; box-shadow: 0 4px 0 #edcf68; }
+.brand-mark { display: grid; place-items: center; width: 46px; height: 46px; border-radius: 16px; background: var(--yellow); object-fit: contain; box-shadow: 0 4px 0 #edcf68; }
 .brand-name { display: block; font-size: 18px; line-height: 1.1; font-weight: 900; letter-spacing: -.35px; }
 .brand-sub { display: block; margin-top: 4px; color: var(--muted); font-size: 12px; font-weight: 600; letter-spacing: .03em; }
 .main-nav { display: flex; align-items: center; gap: 8px; }
